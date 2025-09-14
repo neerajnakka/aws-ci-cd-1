@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CI/CD on AWS</title>
+  <style>
+    /* Inline CSS for styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #232f3e, #1a2b3c);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h2 {
+      font-size: 2rem;
+      color: #232f3e;
+      margin-bottom: 15px;
+    }
+    .section p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+    }
+    .workflow {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .service-box {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    .service-icon {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #ff9f43;
+    }
+    footer {
+      background: #232f3e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>CI/CD on AWS</h1>
+    <p>A Modern Workflow for Automated Deployments</p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Introduction Section -->
+    <div class="section">
+      <h2>Welcome to My Project</h2>
+      <p>This project demonstrates a fully automated CI/CD pipeline using AWS services. The workflow integrates source control, build automation, testing, and deployment to deliver applications efficiently.</p>
+    </div>
+
+    <!-- Workflow Section -->
+    <div class="section">
+      <h2>How It Works</h2>
+      <p>The CI/CD pipeline automates the process of building, testing, and deploying applications. Below are the key AWS services involved:</p>
+      <div class="workflow">
+        <!-- CodeCommit -->
+        <div class="service-box">
+          <span class="service-icon">📦</span>
+          <h3>AWS CodeCommit</h3>
+          <p>Source control for storing and managing code.</p>
+        </div>
+        <!-- CodeBuild -->
+        <div class="service-box">
+          <span class="service-icon">🛠️</span>
+          <h3>AWS CodeBuild</h3>
+          <p>Compiles code, runs tests, and produces artifacts.</p>
+        </div>
+        <!-- CodePipeline -->
+        <div class="service-box">
+          <span class="service-icon">➡️</span>
+          <h3>AWS CodePipeline</h3>
+          <p>Orchestrates the CI/CD workflow across stages.</p>
+        </div>
+        <!-- CodeDeploy -->
+        <div class="service-box">
+          <span class="service-icon">🚀</span>
+          <h3>AWS CodeDeploy</h3>
+          <p>Deploys applications to EC2, Lambda, or other services.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <div class="section">
+      <h2>Why CI/CD on AWS?</h2>
+      <p>This approach ensures faster delivery, higher quality, and reduced manual intervention. By leveraging AWS services, you can scale your deployments seamlessly.</p>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    &copy; 2025 My CI/CD Project | Built with ❤️ and AWS
+  </footer>
+</body>
+</html>
